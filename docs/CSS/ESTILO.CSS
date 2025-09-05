@@ -1,0 +1,50 @@
+/* seletor de elementos */
+body{
+    background-color: #D6E6F2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* seletor de classe */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    background-color: #5B5B7A;
+    padding: 2rem;
+    margin-right: 1rem;
+    width: 30%;
+}
+
+.conteudo{
+    padding: 2rem;
+    width: 70%;
+}
+
+.item-menu{
+    padding: 0.6rem;
+    margin: 0.7rem 0rem 0.7rem 0rem;
+    list-style: none;
+    border-bottom: solid;
+}
+
+.item-menu:hover{
+    background-color: rgb(121, 181, 250);
+}
+
+section{
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+#sec1{
+    background-color: beige;
+}
+
+#sec2{
+    background-color: beige;
+}
+
+#sec3{
+    background-color: beige;
+}
