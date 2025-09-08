@@ -1,6 +1,6 @@
 /* seletor de elementos */
 body{
-    background-color: #D6E6F2;
+    background-color: #87CEEB;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* seletor de classe */
@@ -10,7 +10,7 @@ body{
 }
 
 .menu{
-    background-color: #5B5B7A;
+    background-color: #0d8bbd;
     padding: 2rem;
     margin-right: 1rem;
     width: 30%;
@@ -38,13 +38,17 @@ section{
 }
 
 #sec1{
-    background-color: beige;
+    background-color: #ADD8E6;
 }
 
 #sec2{
-    background-color: beige;
+    background-color: #ADD8E6;
 }
 
 #sec3{
-    background-color: beige;
+    background-color: #ADD8E6;
+}
+
+.centro{
+    text-align: center;
 }
