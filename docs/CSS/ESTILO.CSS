@@ -30,7 +30,6 @@ p {
 }
 
 .container {
-    display: grid;
     display: flex;           /* Torna o container um flexbox (permite organizar os elementos lado a lado ou em coluna) */
     flex-direction: row;     /* Define que o menu e o conteúdo ficam em linha (um ao lado do outro) */
 }
@@ -99,4 +98,21 @@ section {
     border-radius: 50%; /* Deixa a imagem circular */
     border: 4px solid;  /* Define borda sólida de 4px */
     border-color: #000; /* Define a cor da borda como preta */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Coloca o menu e conteúdo em coluna */
+    }
+
+    .menu {
+        width: 100%; /* O menu ocupa 100% da largura */
+        margin-right: 0; /* Remove a margem direita */
+        margin-bottom: 1rem; /* Margem inferior no menu */
+    }
+
+    .conteudo {
+        width: 100%; /* O conteúdo ocupa 100% da largura */
+        margin-top: 1rem; /* Margem superior no conteúdo */
+    }
 }
