@@ -30,6 +30,7 @@ p {
 }
 
 .container {
+    display: grid;
     display: flex;           /* Torna o container um flexbox (permite organizar os elementos lado a lado ou em coluna) */
     flex-direction: row;     /* Define que o menu e o conteúdo ficam em linha (um ao lado do outro) */
 }
