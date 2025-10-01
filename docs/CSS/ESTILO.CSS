@@ -1,6 +1,6 @@
 /* seletor de elementos */
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*deixa o movimento de rolagem d apagina mais "natural"*/
 }
 
 body {
@@ -17,6 +17,11 @@ a {
 a:hover {
     color: white;          /* Quando passa o mouse, a cor do link muda para branco */
 }
+
+p {
+  margin-bottom: 20px; /* Espaço entre os parágrafos */
+}
+
 /* seletor de classe */
 .perfil{
     display: flex;           /* coloca foto e ícone lado a lado */
@@ -25,8 +30,8 @@ a:hover {
 }
 
 .container {
-    display: flex;           /* Torna o container um flexbox (permite organizar os elementos filhos lado a lado ou em coluna) */
-    flex-direction: row;     /* Define que os filhos (menu + conteúdo) ficam em linha (um ao lado do outro) */
+    display: flex;           /* Torna o container um flexbox (permite organizar os elementos lado a lado ou em coluna) */
+    flex-direction: row;     /* Define que o menu e o conteúdo ficam em linha (um ao lado do outro) */
 }
 
 .menu {
@@ -34,17 +39,19 @@ a:hover {
     padding: 2rem;            /* Espaçamento interno (respiro dentro da área do menu) */
     margin-right: 1rem;       /* Espaçamento externo à direita do menu */
     width: 30%;               /* Menu ocupa 30% da largura total */
+    margin-bottom: 1rem;      /* adiciona uma margem inferior  */
+    border-radius: 1%;        /* arredonda levemente os cantos do elemento */
 }
 
 .conteudo {
     padding: 2rem;            /* Espaçamento interno do conteúdo */
-    width: 70%;               /* Conteúdo ocupa 70% da largura total */
+    width: 60%;               /* Conteúdo ocupa 70% da largura total */
 }
 
 .item-menu {
     padding: 0.6rem;          /* Espaçamento interno de cada item da lista do menu */
     margin: 0.7rem 0 0.7rem 0;/* Espaçamento externo em cima e embaixo (0.7rem), laterais zeradas */
-    list-style: none;         /* Remove os marcadores (bolinhas) do <li> */
+    list-style: none;         /* Remove os marcadores */
     border-bottom: solid;     /* Cria uma borda embaixo de cada item (mas sem largura/cor definida, por isso usa padrão) */
 }
 
@@ -60,18 +67,27 @@ section {
 /* seletor de id */
 #sec1 {
     background-color: #ADD8E6; /* Cor de fundo azul clara para a seção 1 */
+    border-radius: 1%;           /* arredonda levemente os cantos do elemento */
 }
 
 #sec2 {
     background-color: #ADD8E6; /* Cor de fundo azul clara para a seção 2 */
+    border-radius: 1%;           /* arredonda levemente os cantos do elemento */
 }
 
 #sec3 {
     background-color: #ADD8E6; /* Cor de fundo azul clara para a seção 3 */
+    border-radius: 1%;           /* arredonda levemente os cantos do elemento */
 }
 
 #sec4 {
     background-color: #ADD8E6; /* Cor de fundo azul clara para a seção 4 */
+    border-radius: 1%;           /* arredonda levemente os cantos do elemento */
+}
+
+#sec5 {
+    background-color: #ADD8E6; /* Cor de fundo azul clara para a seção 4 */
+    border-radius: 1%;           /* arredonda levemente os cantos do elemento */
 }
 
 .centro {
