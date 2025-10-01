@@ -45,7 +45,7 @@ p {
 
 .conteudo {
     padding: 2rem;            /* Espaçamento interno do conteúdo */
-    width: 60%;               /* Conteúdo ocupa 70% da largura total */
+    width: 60%;               /* Conteúdo ocupa 60% da largura total */
 }
 
 .item-menu {
@@ -116,3 +116,4 @@ section {
         margin-top: 1rem; /* Margem superior no conteúdo */
     }
 }
+
